@@ -50,13 +50,13 @@
 /*
  * IO pins assignments.
  */
-#define PORTB_LED1  7
+#define PORTB_LED1  13
 
 
 /*
  * IO lines assignments.
  */
-#define LINE_LED1   PAL_LINE(IOPORT2, 7U)
+#define LINE_LED1   PAL_LINE(IOPORT3, 13U)
 
 #define GPIOB_USB_DISC          9
 #define GPIOD_OSC_IN            0
@@ -159,7 +159,7 @@
  * Everything input with pull-up except:
  */
 #define VAL_GPIOCCRL            0x88888888      /*  PC7...PC0 */
-#define VAL_GPIOCCRH            0x88888888      /* PC15...PC8 */
+#define VAL_GPIOCCRH            0x88188888      /* PC15...PC8 */
 #define VAL_GPIOCODR            0xFFFFFFFF
 
 /*

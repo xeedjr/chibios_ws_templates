@@ -8,7 +8,7 @@ extern const SerialConfig sd1_config;
 #endif
 
 void Timer1_Callback  (void const *arg) {
-	palTogglePad(IOPORT2, PORTB_LED1);
+	palToggleLine(LINE_LED1);
 };
 osTimerDef (Timer1, Timer1_Callback);
 
