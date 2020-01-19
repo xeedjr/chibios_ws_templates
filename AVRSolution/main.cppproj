@@ -130,7 +130,7 @@
       <Value>../../src/os/os/hal/ports/AVR/MEGA/LLD/USBv1</Value>
       <Value>../../src/os/os/hal/ports/AVR/MEGA/LLD/USARTv1</Value>
       <Value>../../src/os/os/hal/osal/lib</Value>
-      <Value>../../src/os_user</Value>
+      <Value>../../src/os_user/atmega326</Value>
       <Value>../../src/os/os/oslib/include</Value>
       <Value>../../src/os/os/common/abstractions/cmsis_os</Value>
       <Value>../../src/os/os/license</Value>
@@ -171,7 +171,7 @@
       <Value>../../src/os/os/hal/ports/AVR/MEGA/LLD/USBv1</Value>
       <Value>../../src/os/os/hal/ports/AVR/MEGA/LLD/USARTv1</Value>
       <Value>../../src/os/os/hal/osal/lib</Value>
-      <Value>../../src/os_user</Value>
+      <Value>../../src/os_user/atmega326</Value>
       <Value>../../src/os/os/oslib/include</Value>
       <Value>../../src/os/os/common/abstractions/cmsis_os</Value>
       <Value>../../src/os/os/license</Value>
@@ -542,23 +542,23 @@
       <SubType>compile</SubType>
       <Link>os\rt\chvt.c</Link>
     </Compile>
-    <Compile Include="..\src\os_user\board.c">
+    <Compile Include="..\src\os_user\atmega326\board.c">
       <SubType>compile</SubType>
       <Link>os_user\board.c</Link>
     </Compile>
-    <Compile Include="..\src\os_user\board.h">
+    <Compile Include="..\src\os_user\atmega326\board.h">
       <SubType>compile</SubType>
       <Link>os_user\board.h</Link>
     </Compile>
-    <Compile Include="..\src\os_user\chconf.h">
+    <Compile Include="..\src\os_user\atmega326\chconf.h">
       <SubType>compile</SubType>
       <Link>os_user\chconf.h</Link>
     </Compile>
-    <Compile Include="..\src\os_user\halconf.h">
+    <Compile Include="..\src\os_user\atmega326\halconf.h">
       <SubType>compile</SubType>
       <Link>os_user\halconf.h</Link>
     </Compile>
-    <Compile Include="..\src\os_user\mcuconf.h">
+    <Compile Include="..\src\os_user\atmega326\mcuconf.h">
       <SubType>compile</SubType>
       <Link>os_user\mcuconf.h</Link>
     </Compile>
