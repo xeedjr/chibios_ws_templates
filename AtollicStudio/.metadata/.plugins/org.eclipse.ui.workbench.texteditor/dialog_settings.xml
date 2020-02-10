@@ -2,13 +2,12 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Toggl" key="selection"/>
+		<item value="nvicEnableVector" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="toggl"/>
 			<item value="nvicEnableVector"/>
 			<item value="sd1_config"/>
 			<item value="UART"/>
@@ -16,6 +15,7 @@
 			<item value="PALConfig"/>
 			<item value="PalCon"/>
 			<item value="STM32_HAS_OTG1"/>
+			<item value="STM32_OTG_STEPPING"/>
 		</list>
 		<list key="replacehistory">
 		</list>
