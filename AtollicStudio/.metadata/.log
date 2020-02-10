@@ -1045,3 +1045,6 @@ target extended-remote localhost:61234
 
 Error message from debugger back end:
 localhost:61234: The system tried to join a drive to a directory on a joined drive.
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2020-01-19 22:28:11.789
+!MESSAGE Unloading product manager

@@ -19,11 +19,11 @@
 /**
  * @brief   Driver default configuration.
  */
-/*const SerialConfig sd1_config = {
+const SerialConfig sd1_config = {
   UBRR2x_F(115200),
   USART_CHAR_SIZE_8
 };
-*/
+
 /**
  * @brief   PAL setup.
  * @details Digital I/O ports static configuration as defined in @p board.h.
