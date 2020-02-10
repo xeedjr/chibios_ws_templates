@@ -251,7 +251,7 @@
 								<option id="com.atollic.truestudio.common_options.target.fpu.1415118807" name="Floating point" superClass="com.atollic.truestudio.common_options.target.fpu"/>
 								<option id="com.atollic.truestudio.ldcc.optimization.do_garbage.1103313329" name="Dead code removal" superClass="com.atollic.truestudio.ldcc.optimization.do_garbage" value="true" valueType="boolean"/>
 								<option id="com.atollic.truestudio.ldcc.general.scriptfile.20105731" name="Linker script" superClass="com.atollic.truestudio.ldcc.general.scriptfile" useByScannerDiscovery="false" value="&quot;..\..\..\src\os\os\common\startup\ARMCMx\compilers\GCC\ld\STM32F103x8.ld&quot;" valueType="string"/>
-								<option id="com.atollic.truestudio.ldcc.misc.additional_objects.751699784" name="Additional object files" superClass="com.atollic.truestudio.ldcc.misc.additional_objects" useByScannerDiscovery="false" valueType="userObjs"/>
+								<option id="com.atollic.truestudio.ldcc.misc.additional_objects.751699784" name="Additional object files" superClass="com.atollic.truestudio.ldcc.misc.additional_objects" useByScannerDiscovery="false"/>
 								<option id="com.atollic.truestudio.ldcc.libraries.searchpath.1993553768" name="Library search path" superClass="com.atollic.truestudio.ldcc.libraries.searchpath" useByScannerDiscovery="false" valueType="libPaths">
 									<listOptionValue builtIn="false" value="&quot;..\..\..\src\os\os\common\startup\ARMCMx\compilers\GCC\ld&quot;"/>
 								</option>
