@@ -1,0 +1,9 @@
+22:40:08 **** Clean-only build of configuration Debug for project main_stm32f103 ****
+make clean 
+rm -rf *
+rm: can't remove 'main_stm32f103.elf': Permission denied
+make: [makefile:105: clean] Error 1 (ignored)
+ 
+
+22:40:10 Build Finished. 0 errors, 0 warnings. (took 2s.246ms)
+
